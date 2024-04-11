@@ -75,7 +75,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20rem;
+    gap: 10rem;
 }
 .home-content{
     display: flex;
@@ -180,7 +180,22 @@ span{
     background-color: var(--main-color);
     color: black;
 }
-
+.text-animation{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 200px;
+}
+.text-animation span{
+    position: relative;
+}
+.text-animation span::before{
+    content: "Web Developer";
+    color: var(--main-color);
+    animation: word 20s infinite;
+}
+.text-animation::after{
+    
+}
 
 
 
