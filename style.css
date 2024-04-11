@@ -194,7 +194,14 @@ span{
     animation: word 20s infinite;
 }
 .text-animation::after{
-    
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right: -8px;
+
 }
 
 
