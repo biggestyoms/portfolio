@@ -582,4 +582,23 @@ resize: none;
 }
 
 
+                                              /* hireme */
 
+#popupButton{
+   position: fixed;
+   top: 50%;
+   left: 48%;
+   transform: translate(-50%, -45%);
+   padding: 20px;
+   border: 1px solid #00ffee;
+font-size: 1.5rem ;
+color: white;
+background: #080808;
+font-weight: 800;
+box-shadow: 0 0 25px #00ffee;
+
+}
+#popupButton:hover{
+ border-bottom: ;
+}
+                                       
