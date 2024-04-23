@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "poppins" sans-serif;
+    font-family: outfit;
 }
 
 :root{
@@ -582,23 +583,5 @@ resize: none;
 }
 
 
-                                              /* hireme */
+                                              
 
-#popupButton{
-   position: fixed;
-   top: 50%;
-   left: 48%;
-   transform: translate(-50%, -45%);
-   padding: 20px;
-   border: 1px solid #00ffee;
-font-size: 1.5rem ;
-color: white;
-background: #080808;
-font-weight: 800;
-box-shadow: 0 0 25px #00ffee;
-
-}
-#popupButton:hover{
- border-bottom: ;
-}
-                                       

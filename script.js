@@ -27,4 +27,9 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+function togglePopup() {
+    var popup =
+    document.getElementById("popupContainer");
+    popup.classList.toggle("hidden");
 
+}

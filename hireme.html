@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hire Me</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <button id="popupButton"> Check My works</button>
+    <link rel="stylesheet" href="hireme.css">
+  </head>
+  <body>
+   <div class="container">
+    <button id="popupButton">Check My works</button>
     <div id="popupContainer" class="hidden">
-        <div class="popupItem">
-            <a href="www.facebook.com">Website 1</a>
-        </div>
-        <div class="popupItem">
-            <a href="www.facebook.com">Website 1</a>
-        </div>
-        <div class="popupItem">
-            <a href="www.facebook.com">Website 1</a>
-        </div>
-        <div class="popupItem">
-            <a href="www.facebook.com">Website 1</a>
-        </div>
-        <div class="popupItem">
-            <a href="www.facebook.com">Website 1</a>
-        </div>
-  
-
+ <ul class="list">
+    <li><a href="">Website 1</a></li>
+    <li><a href="">Website 1</a></li>
+    <li><a href="">Website 1</a></li>
+    <li><a href="">Website 1</a></li>
+    <li><a href="">Website 1</a></li>
+ </ul>
     </div>
-</body>
+   </div>
+
+    <script>
+      document
+        .getElementById("popupButton")
+        .addEventListener("click", function () {
+          document.getElementById("popupContainer").classList.toggle("hidden");
+        });
+    </script>
+  </body>
 </html>
